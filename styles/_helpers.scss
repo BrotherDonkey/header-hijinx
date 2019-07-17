@@ -1,0 +1,47 @@
+
+.circle {
+    height: 2rem;
+    width: 2rem;
+    background: black;
+    border-radius: 50%;
+}
+
+p.is-large,
+a.is-large {
+    font-size: 2rem;
+}
+
+.has-box-shadow {
+    box-shadow: 0 1.6px 3.6px 0 rgba(0,0,0,.132), 0 0.3px 0.9px 0 rgba(0,0,0,.108);
+}
+
+a.is-undecorated {
+    text-decoration: none;
+    color: black;
+}
+
+.is-padded-small {
+    padding: .5rem;
+}
+
+.is-padded-medium {
+    padding: 1rem;
+}
+
+ul.is-spaced-vertical {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.is-font-size-medium {
+    font-size: 1.2rem;
+}
+
+.has-margin-top-small {
+    margin-top: .5rem;
+}
+
+.has-text-align-center {
+    text-align: center;
+}

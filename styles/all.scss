@@ -1,0 +1,23 @@
+// Zero output
+@import './utils';
+// Base Level
+@import './reset';
+@import './type';
+
+// Components
+@import './navbar';
+@import './article';
+
+// Stragglers
+@import './helpers';
+
+.story {
+    margin: 0 auto;
+    max-width: 740px;
+    padding: 24px;
+
+    p {
+        margin-top: 1.5em;
+        line-height: 1.5em;
+    }
+}

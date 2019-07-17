@@ -1,0 +1,18 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $heading-font-stack;
+}
+
+a,
+p {
+    font-family: $body-font-stack;
+}
+
+code,
+.is-monospace {
+    font-family: $monospace-font-stack;
+}
